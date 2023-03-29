@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@gmail.com",
+        "phone": "01864 454014",
+        "skills": [
+            "JavaScript",
+            "PHP",
+            "Python",
+            "C++",
+            "C#"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "janesmith@gmail.com",
+        "phone": "01324 556789",
+        "skills": [
+            "Java",
+            "Python",
+            "Ruby",
+            "Swift"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Bob Johnson",
+        "email": "bobjohnson@gmail.com",
+        "phone": "01698 123456",
+        "skills": [
+            "C++",
+            "C#",
+            "JavaScript",
+            "Python"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Samantha Lee",
+        "email": "samanthalee@gmail.com",
+        "phone": "020 123 4567",
+        "skills": [
+            "Java",
+            "C#",
+            "Python",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Mike Chen",
+        "email": "mikechen@gmail.com",
+        "phone": "07890 123456",
+        "skills": [
+            "C++",
+            "Java",
+            "Python",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Sarah Lee",
+        "email": "sarahlee@gmail.com",
+        "phone": "01523 845612",
+        "skills": ["JavaScript", "Java", "Python", "PHP", "HTML"]
+    },
+    {
+        "id": 7,
+        "name": "David Kim",
+        "email": "davidkim@hotmail.com",
+        "phone": "07973 367822",
+        "skills": ["C++", "C#", "Objective-C", "Swift", "Rust"]
+    },
+    {
+        "id": 8,
+        "name": "Samantha Brown",
+        "email": "sbrown@yahoo.com",
+        "phone": "03658 912534",
+        "skills": ["SQL", "Perl", "Ruby", "Scala", "JavaScript"]
+    },
+    {
+        "id": 9,
+        "name": "Jorge Rodriguez",
+        "email": "jrodriguez@gmail.com",
+        "phone": "09234 567890",
+        "skills": ["PHP", "Python", "Java", "C++", "JavaScript"]
+    },
+    {
+        "id": 10,
+        "name": "Julia Wang",
+        "email": "juliawang@gmail.com",
+        "phone": "04567 239874",
+        "skills": ["HTML", "CSS", "React", "AngularJS", "Node.js"]
+    }
+]

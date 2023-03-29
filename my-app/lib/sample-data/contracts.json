@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "company": "Google",
+        "jobTitle": "Software Engineer",
+        "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "startDate": "01/03/2023",
+        "endDate": "01/03/2025",
+        "contact": "contracts@google.com"
+    },
+    {
+        "id": 2,
+        "company": "Microsoft",
+        "jobTitle": "Data Analyst",
+        "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "startDate": "01/06/2023",
+        "endDate": "01/06/2025",
+        "contact": "contracts@microsoft.com"
+    },
+    {
+        "id": 3,
+        "company": "Amazon",
+        "jobTitle": "Front-End Developer",
+        "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "startDate": "01/09/2023",
+        "endDate": "01/09/2025",
+        "contact": "contracts@amazon.com"
+    },
+    {
+        "id": 4,
+        "company": "Apple",
+        "jobTitle": "Product Manager",
+        "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "startDate": "01/12/2023",
+        "endDate": "01/12/2025",
+        "contact": "contracts@apple.com"
+    },
+    {
+        "id": 5,
+        "company": "Facebook",
+        "jobTitle": "Backend Developer",
+        "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "startDate": "01/03/2023",
+        "endDate": "01/03/2025",
+        "contact": "contracts@facebook.com"
+    },
+    {
+        "id": 6,
+        "company": "Netflix",
+        "jobTitle": "DevOps Engineer",
+        "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "startDate": "01/06/2023",
+        "endDate": "01/06/2025",
+        "contact": "contracts@netflix.com"
+    },
+    {
+        "id": 7,
+        "company": "Tesla",
+        "jobTitle": "Electrical Engineer",
+        "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "startDate": "01/09/2023",
+        "endDate": "01/09/2025",
+        "contact": "contracts@tesla.com"
+    },
+    {
+        "id": 8,
+        "company": "Twitter",
+        "jobTitle": "Data Scientist",
+        "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "startDate": "01/12/2023",
+        "endDate": "01/12/2025",
+        "contact": "contracts@twitter.com"
+    }
+]
