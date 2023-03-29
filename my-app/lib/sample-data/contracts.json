@@ -4,6 +4,7 @@
         "company": "Google",
         "jobTitle": "Software Engineer",
         "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "skillsRequired": ["C++", "Java", "MongoDB", "Python", "JavaScript", "SQL", "HTML", "CSS"],
         "startDate": "01/03/2023",
         "endDate": "01/03/2025",
         "contact": "contracts@google.com"
@@ -13,6 +14,7 @@
         "company": "Microsoft",
         "jobTitle": "Data Analyst",
         "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "skillsRequired": ["Python", "SQL"],
         "startDate": "01/06/2023",
         "endDate": "01/06/2025",
         "contact": "contracts@microsoft.com"
@@ -22,6 +24,7 @@
         "company": "Amazon",
         "jobTitle": "Front-End Developer",
         "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "skillsRequired": ["JavaScript", "React", "HTML", "CSS"],
         "startDate": "01/09/2023",
         "endDate": "01/09/2025",
         "contact": "contracts@amazon.com"
@@ -31,6 +34,7 @@
         "company": "Apple",
         "jobTitle": "Product Manager",
         "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "skillsRequired": ["Java", "Linux", "C#"],
         "startDate": "01/12/2023",
         "endDate": "01/12/2025",
         "contact": "contracts@apple.com"
@@ -40,6 +44,7 @@
         "company": "Facebook",
         "jobTitle": "Backend Developer",
         "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "skillsRequired": ["Python", "Java", "SQL"],
         "startDate": "01/03/2023",
         "endDate": "01/03/2025",
         "contact": "contracts@facebook.com"
@@ -49,6 +54,7 @@
         "company": "Netflix",
         "jobTitle": "DevOps Engineer",
         "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "skillsRequired": ["Linux", "TypeScript", "Java", "C#"],
         "startDate": "01/06/2023",
         "endDate": "01/06/2025",
         "contact": "contracts@netflix.com"
@@ -56,8 +62,9 @@
     {
         "id": 7,
         "company": "Tesla",
-        "jobTitle": "Electrical Engineer",
+        "jobTitle": "Software Engineer",
         "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "skillsRequired": ["Python", "C++", "C#", "Java", "Ruby"],
         "startDate": "01/09/2023",
         "endDate": "01/09/2025",
         "contact": "contracts@tesla.com"
@@ -67,6 +74,7 @@
         "company": "Twitter",
         "jobTitle": "Data Scientist",
         "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "skillsRequired": ["Python", "C++", "SQL", "NoSQL", "C++"],
         "startDate": "01/12/2023",
         "endDate": "01/12/2025",
         "contact": "contracts@twitter.com"
