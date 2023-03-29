@@ -5,7 +5,8 @@ import CandidateTable from '../CandidateTable/candidate-table';
 
 function ConractRow({job, candidates}) {
     const [lgShow, setLgShow] = useState(false);
-    const [sortedCandidates, setSortedCandidates] = useState(candidates);;
+    const [sortedCandidates, setSortedCandidates] = useState(candidates);
+    const [resetCandidates, setResetCandidates] = useState(candidates);
 
     const sortByMatchingSkills = () => {
         const sorted = [...candidates].sort((a, b) => {
@@ -50,6 +51,7 @@ function ConractRow({job, candidates}) {
                     })}</p>
                     <h5>Sort by</h5>
                     <button onClick={sortByMatchingSkills}>Most Recommended</button>
+                    <button onClick={() => setSortedCandidates(resetCandidates)}>Reset</button>
                     <CandidateTable candidates={sortedCandidates}></CandidateTable>
                     </Modal.Body>
               </Modal>
