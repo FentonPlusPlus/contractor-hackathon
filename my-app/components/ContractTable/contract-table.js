@@ -1,5 +1,8 @@
-const ContractTable = ({ contracts }) => {
-    return (
+import ContractRow from '../ContractRow/contract-row'
+
+const ContractTable = ({ contracts, candidates }) => {
+  
+  return (
       <table>
         <thead>
           <tr>
@@ -13,15 +16,7 @@ const ContractTable = ({ contracts }) => {
         </thead>
         <tbody>
           {contracts.map((job) => (
-            <tr key={job.id}>
-              <td>{job.id}</td>
-              <td>{job.company}</td>
-              <td>{job.jobTitle}</td>
-              <td>{job.startDate}</td>
-              <td>{job.endDate}</td>
-              <td>{job.contact}</td>
-              <button>More info</button>
-            </tr>
+            <ContractRow job={job} key={job.id} candidates={candidates}/>
           ))}
         </tbody>
       </table>

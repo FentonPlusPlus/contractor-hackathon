@@ -1,4 +1,5 @@
 import contracts from '../lib/sample-data/contracts.json';
+import candidates from '../lib/sample-data/candidates.json';
 import Navbar from '../components/Navbar/navbar';
 import ContractTable from '../components/ContractTable/contract-table'
 // import { useState, useEffect } from 'react';
@@ -25,8 +26,8 @@ function board() {
     return (
         <div>
         <Navbar></Navbar>
-        <h1>My Job Board</h1>
-        <ContractTable contracts={contracts}></ContractTable>
+        <h1>Contract Board</h1>
+        <ContractTable contracts={contracts} candidates={candidates}></ContractTable>
         </div>
     )
 }
