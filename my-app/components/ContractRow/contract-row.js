@@ -47,7 +47,7 @@ function ConractRow({job, candidates}) {
                         {job.jobDescription}
                     </p>
                     <p>Skills Required: {job.skillsRequired.map((skill) => {
-                        return <span>{skill} </span>
+                        return <span> {skill} |</span>
                     })}</p>
                     <h5>Sort by</h5>
                     <button onClick={sortByMatchingSkills}>Most Recommended</button>
