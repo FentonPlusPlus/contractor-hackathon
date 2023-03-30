@@ -20,7 +20,9 @@ export default function Candidates(){
         Phone:
         <input type='text' name='Phone' />
       </label>
+      <button type='submit'>Submit</button>
     </form>
+    
     </div>
   )
 }
