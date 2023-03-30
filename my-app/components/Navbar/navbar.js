@@ -1,10 +1,27 @@
 import React from 'react';
-import styles from './navbar.module.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import Link from 'next/link';
 
-function Navbar() {
+function NavbarComponent() {
   return (
-    <nav className={styles.navbar}>
+    <Navbar bg="light" variant="light">
+        <Container>
+          <Navbar.Brand href="/">The Contractor</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="/board">Contract Board</Nav.Link>
+            <Nav.Link href="/add-contract">Add A Contract</Nav.Link>
+            <Nav.Link href="/candidates">Candidates</Nav.Link>
+            <Nav.Link href="/add-candidate">Add A Candidate</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+  );
+};
+
+/* 
+<nav className={styles.navbar}>
       <ul className={styles.navbarNav}>
         <li className={styles.navItem}>
           <Link href="/">
@@ -32,8 +49,5 @@ function Navbar() {
           </Link>
         </li>
       </ul>
-    </nav>
-  );
-};
-
-export default Navbar
+    </nav> */
+export default NavbarComponent;
