@@ -1,11 +1,20 @@
 import contracts from '../lib/sample-data/contracts.json';
-import candidates from '../lib/sample-data/candidates.json';
+// import candidates from '../lib/sample-data/candidates.json';
+import { getCandidates } from '../lib/anything.js';
 import Navbar from '../components/Navbar/navbar';
 import ContractTable from '../components/ContractTable/contract-table'
 // import { useState, useEffect } from 'react';
 
+export async function getServerSideProps() {
+    const candidates = await getCandidates();
+    return {
+        props: {
+          candidates,
+        }
+    }
+}
 
-function board() {
+function board(props) {
     // const [contracts, setContracts] = useState(jobs);
     // console.log(contracts);
     // useEffect(() => {
@@ -22,12 +31,12 @@ function board() {
     //       }
     //       getContracts();
     // }, []);
-  
+    const newCandidates = props.candidates;
     return (
         <div>
         <Navbar></Navbar>
         <h1>Contract Board</h1>
-        <ContractTable contracts={contracts} candidates={candidates}></ContractTable>
+        <ContractTable contracts={contracts} candidates={newCandidates}></ContractTable>
         </div>
     )
 }
