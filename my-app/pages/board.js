@@ -5,14 +5,14 @@ import Navbar from '../components/Navbar/navbar';
 import ContractTable from '../components/ContractTable/contract-table'
 
 
-export async function getServerSideProps() {
-    const candidates = await getCandidates();
-    return {
-        props: {
-          candidates,
-        }
-    }
-}
+// export async function getServerSideProps() {
+//     const candidates = await getCandidates();
+//     return {
+//         props: {
+//           candidates,
+//         }
+//     }
+// }
 
 function board(props) {
     // const [contracts, setContracts] = useState(jobs);

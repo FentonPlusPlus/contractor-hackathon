@@ -1,10 +1,10 @@
-import pkg from "pg";
-const { Pool } = pkg;
+// import pkg from "pg";
+// const { Pool } = pkg;
 
-export const pool = new Pool({
-    connectionString: process.env.REACT_APP_DATABASE,
-})
+// export const pool = new Pool({
+//     connectionString: process.env.REACT_APP_DATABASE,
+// })
 
-export function query(text, params) {
-    return pool.query(text, params);
-}
+// export function query(text, params) {
+//     return pool.query(text, params);
+// }

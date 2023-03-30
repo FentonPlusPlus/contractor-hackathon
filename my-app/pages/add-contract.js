@@ -27,6 +27,7 @@ export default function AddContract(){
         Contact:
         <input type='text' name='Contact' />
       </label>
+      <button type='submit'>Submit</button>
     </form>
     </div>
     
