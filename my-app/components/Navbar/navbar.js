@@ -4,16 +4,17 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Link from 'next/link';
 
+
 function NavbarComponent() {
   return (
     <Navbar bg="light" variant="light">
         <Container>
           <Navbar.Brand href="/">The Contractor</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/board">Contract Board</Nav.Link>
-            <Nav.Link href="/add-contract">Add A Contract</Nav.Link>
-            <Nav.Link href="/candidates">Candidates</Nav.Link>
-            <Nav.Link href="/add-candidate">Add A Candidate</Nav.Link>
+            <Link href="/board">Contract Board</Link>
+            <Link href="/add-contract">Add A Contract</Link>
+            <Link href="/candidates">Candidates</Link>
+            <Link href="/add-candidate">Add A Candidate</Link>
           </Nav>
         </Container>
       </Navbar>
