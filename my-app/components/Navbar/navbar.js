@@ -9,9 +9,9 @@ function NavbarComponent() {
   return (
     <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="/">The Contractor</Navbar.Brand>
-          <Nav className="me-auto">
-            <Link href="/board">Contract Board</Link>
+          <Navbar.Brand href="/">Colin the Contractor</Navbar.Brand>
+          <Nav style={{display: 'flex', flexDirection: 'row', gap: '12px'}} className="me-auto">
+            <Link href="/board">Contract Board </Link>
             <Link href="/add-contract">Add A Contract</Link>
             <Link href="/candidates">Candidates</Link>
             <Link href="/add-candidate">Add A Candidate</Link>

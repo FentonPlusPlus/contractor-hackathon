@@ -4,8 +4,9 @@ function CandidateTable({ candidates }) {
 
    return (
     <div>
+    <h1 style={{marginLeft: '5rem'}}>Candidate Board</h1>
     {candidates ? 
-        <table>
+        <table style={{marginLeft: '5rem', marginTop: '3rem'}}>
          
             <tr>
               <th>ID</th>

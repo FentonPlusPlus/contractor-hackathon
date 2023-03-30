@@ -35,7 +35,7 @@ function board(props) {
     return (
         <div>
         <Navbar></Navbar>
-        <h1>Contract Board</h1>
+        <h1 style={{marginLeft: '5rem'}}>Contract Board</h1>
         <ContractTable contracts={contracts} candidates={newCandidates}></ContractTable>
         </div>
     )

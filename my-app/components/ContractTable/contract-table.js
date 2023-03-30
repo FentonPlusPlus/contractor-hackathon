@@ -3,7 +3,7 @@ import ContractRow from '../ContractRow/contract-row'
 const ContractTable = ({ contracts, candidates }) => {
   
   return (
-      <table>
+      <table style={{marginLeft: '5rem', marginTop: '3rem'}}>
         
        
           <tr>
