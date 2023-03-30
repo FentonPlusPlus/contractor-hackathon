@@ -27,7 +27,7 @@ function ConractRow({job, candidates}) {
               <td>{job.startDate}</td>
               <td>{job.endDate}</td>
               <td>{job.contact}</td>
-              <Button onClick={() => setLgShow(true)}>More info</Button>
+              <td><Button onClick={() => setLgShow(true)}>More info</Button></td>
               <Modal
                 size="lg"
                 show={lgShow}

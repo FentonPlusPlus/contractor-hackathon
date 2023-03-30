@@ -11,7 +11,7 @@ function CandidateRow({person}) {
         <td>{person.name}</td>
         <td>{person.email}</td>
         <td>{person.phone}</td>
-        <Button onClick={() => setLgShow(true)}>More info</Button>
+       <td> <Button onClick={() => setLgShow(true)}>More info</Button></td>
         <Modal
             size="lg"
             show={lgShow}

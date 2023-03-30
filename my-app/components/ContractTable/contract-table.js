@@ -4,7 +4,8 @@ const ContractTable = ({ contracts, candidates }) => {
   
   return (
       <table>
-        <thead>
+        
+       
           <tr>
             <th>ID</th>
             <th>Company</th>
@@ -13,12 +14,13 @@ const ContractTable = ({ contracts, candidates }) => {
             <th>End Date</th>
             <th>Contact</th>
           </tr>
-        </thead>
-        <tbody>
+        
+        
+       
           {contracts.map((job) => (
             <ContractRow job={job} key={job.id} candidates={candidates}/>
           ))}
-        </tbody>
+    
       </table>
     );
   };

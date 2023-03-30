@@ -3,7 +3,7 @@ import contracts from '../lib/sample-data/contracts.json';
 import { getCandidates } from '../lib/anything.js';
 import Navbar from '../components/Navbar/navbar';
 import ContractTable from '../components/ContractTable/contract-table'
-// import { useState, useEffect } from 'react';
+
 
 export async function getServerSideProps() {
     const candidates = await getCandidates();
